@@ -8,10 +8,15 @@ public class BookingPojo {
     private String password;
 
     private String firstname;
+
     private String lastname;
+
     private Integer totalprice;
+
     private Boolean depositpaid;
+
     private HashMap<Object, Object> bookingdates;
+
     private String additionalneeds;
 
     public String getUsername() {

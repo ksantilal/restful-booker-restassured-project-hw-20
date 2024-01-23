@@ -24,8 +24,8 @@ import static org.hamcrest.Matchers.hasKey;
 public class BookingCRUDTestWithSteps extends TestBase {
     public static String username = "admin";
     public static String password = "password123";
-    public static String firstname = "Naren" + TestUtils.getRandomValue();
-    public static String lastname = "Dhaduk" + TestUtils.getRandomValue();
+    public static String firstname = "Kamal" + TestUtils.getRandomValue();
+    public static String lastname = "Dewan" + TestUtils.getRandomValue();
     public static Integer totalprice = 555;
     public static Boolean depositpaid = true;
     public static String additionalneeds = "Breakfast & Dinner";

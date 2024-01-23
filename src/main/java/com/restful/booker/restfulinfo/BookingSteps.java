@@ -69,7 +69,7 @@ public class BookingSteps {
     public ValidatableResponse updateBooking(int bookingID, String firstname, String lastname, int totalprice,
                                              boolean depositpaid, HashMap<Object, Object> bookingsDatesData,
                                              String additionalneeds) {
-         firstname = "Krishn" + TestUtils.getRandomValue();
+         firstname = "Kishan" + TestUtils.getRandomValue();
          lastname = "Patel" + TestUtils.getRandomValue();
 
         BookingPojo bookingPojo = new BookingPojo();
